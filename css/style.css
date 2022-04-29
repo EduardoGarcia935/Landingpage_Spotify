@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-site{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+    margin-left: 119px;
+}
+
+.img-logo img{
+    width: 55px;
+    margin-right: 10px;
+}
+
+nav{
+    width: 580px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 90px;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-bar2{
+    width: 280px;
+    display: flex;
+    justify-content: space-around; 
+    border-left: 2px solid white;   
+}
+
+a:hover{
+    color: rgb(30, 215, 96);
+}
+
+main{
+    height: 900px;
+    background-color: rgb(41, 65, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(30, 215, 96);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+h1{
+    margin-top: 160px;
+    font-size: 145px;
+    width: 85%;
+    height: 450px;
+    font-weight: 900;
+}
+
+.baixar{
+    margin-top: 60px;
+    color: rgb(41, 65, 171);
+    font-weight:  700;
+    font-size: 16px;
+    background-color: rgb(30, 215, 96);
+    padding: 17px;
+    border-radius: 50px;
+    border: none;
+}
+
+.baixar:hover{
+    padding: 19px;
+    font-size: 18px;
+    background-color: rgb(45, 215, 86);
+}
+
+.ball-1{
+    position: absolute;
+    margin-left: 1210px;
+    margin-top: 65px;
+}
+
+.ball-2{
+    position: absolute;
+    margin-right: 1048px;
+    margin-top: 403px;
+}
+
+.ball-3{
+    position: absolute;
+    margin-top: 792px;
+    margin-left: 820px;
+}
+
+footer{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    flex-direction: column
+}
+
+.parte-1{
+    height: 500px;
+    display: flex;
+}
+
+.links-infos{
+    height: 100%;
+    width: 70%;
+    display: flex;
+}
+
+.logo-spotify{
+    width: 27%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.logo-spotify p{
+    margin-top: 120px;
+}
+
+.logo-spotify img{
+    margin-left: 80px;
+    margin-top: 110px;
+}
+
+.empresa{
+    width: 23%;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+.empresa p{
+    color: rgb(145, 148, 150);
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.empresa a{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.empresa a:hover{
+    color: rgb(30, 215, 96);
+}
+
+.empresa div{
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0px 0px 50px;
+}
+
+.comunidade{
+    width: 20%;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.comunidade div{
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0px 0px 10px;
+}
+
+.comunidade p{
+    color: rgb(145, 148, 150);
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.comunidade a{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.comunidade a:hover{
+    color: rgb(30, 215, 96);
+}
+
+
+.links-uteis{
+    width: 25%;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.links-uteis p{
+    color: rgb(145, 148, 150);
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.links-uteis a{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.links-uteis a:hover{
+    color: rgb(30, 215, 96);
+}
+
+.links-uteis div{
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0px 0px 10px;
+}
+
+.redes-sociais{
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.container img{
+    background-color: white;
+    width: 60px;
+    margin-bottom: 140px;
+    margin-left: -40px;
+}
+
+.container img:hover{
+    background-color: rgb(30, 215, 96);
+}
+
+.twitter{
+    margin-left: -50px;
+}
+
+.facebook{
+    margin-left: -50px;
+}
+
+.parte-2{
+    height: 100px;
+    display: flex;
+}
+
+.politicas{
+    margin-left: 120px;
+    width: 720px;
+}
+.politicas a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145, 148, 150);
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+.politicas a:hover{
+    color: rgb(30, 215, 96);
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145, 148, 150);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 250px;
+}
+
+.copyright p{
+    margin-bottom: 10px;
+}
+.copyright p:hover{
+    color: rgb(30, 215, 96);
+}
+
+
